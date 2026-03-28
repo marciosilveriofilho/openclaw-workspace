@@ -14,15 +14,21 @@ p.sub { text-align:center; color:#666; margin-top:-10px; font-size:13px; }
 .card h3 { font-size: 13px; margin: 10px 0 5px; color: #333; min-height: 36px; }
 .preco { font-size: 22px; font-weight: bold; color: #C9A84C; }
 .preco-original { font-size: 13px; text-decoration: line-through; color: #999; }
-.badge-full { background: #C9A84C; color: white; padding: 3px 8px; border-radius: 4px; font-size: 11px; display: inline-block; }
-.badge-promo { background: #e74c3c; color: white; padding: 3px 8px; border-radius: 4px; font-size: 11px; display: inline-block; margin-left: 4px; }
+.badges { margin-top: 6px; }
+.badge { padding: 3px 8px; border-radius: 4px; font-size: 11px; display: inline-block; margin: 2px; }
+.badge-full { background: #C9A84C; color: white; }
+.badge-promo { background: #e74c3c; color: white; }
+.badge-estoque { background: #27ae60; color: white; }
+.badge-estoque-baixo { background: #e67e22; color: white; }
+.badge-sem-estoque { background: #c0392b; color: white; }
+.vendidos { font-size: 11px; color: #999; margin-top: 4px; }
 a { text-decoration: none; color: inherit; }
 .atualizado { text-align:center; color:#999; font-size:11px; margin-top:30px; }
 </style>
 </head>
 <body>
 <h1>📦 Produtos Full — Mariana Amaral Acessórios</h1>
-<p class="sub">14 produtos no Mercado Envios Full · Preços reais (com promoções ativas)</p>
+<p class="sub">14 produtos no Mercado Envios Full · Preços reais · Estoque atualizado</p>
 <div class="grid">
 <a href="https://produto.mercadolivre.com.br/MLB-5482151754-pulseira-feminina-riviera-folheada-a-ouro-18k-dourada-_JM" target="_blank">
 <div class="card">
@@ -30,10 +36,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Pulseira Feminina Riviera Folheada A Ouro 18k Dourada</h3>
 <div class="preco-original">De R$169.90</div>
 <div class="preco">R$91.00</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-46% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-46% OFF</span>
+  <span class="badge badge-estoque">✅ 9 un.</span>
 </div>
+<div class="vendidos">🛒 7 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-4118760797-colar-feminino-folheado-a-ouro-18k-letra-bubble-cravejado-_JM" target="_blank">
@@ -42,10 +50,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Colar Feminino Folheado A Ouro 18k Letra Bubble Cravejado</h3>
 <div class="preco-original">De R$119.90</div>
 <div class="preco">R$73.00</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-39% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-39% OFF</span>
+  <span class="badge badge-estoque">✅ 53 un.</span>
 </div>
+<div class="vendidos">🛒 16 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-4128598567-colar-com-pingente-oval-ouro-18k-vazado-dourado-prateado-_JM" target="_blank">
@@ -54,10 +64,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Colar Com Pingente Oval Ouro 18k Vazado Dourado Prateado</h3>
 <div class="preco-original">De R$129.90</div>
 <div class="preco">R$82.00</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-37% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-37% OFF</span>
+  <span class="badge badge-estoque">✅ 49 un.</span>
 </div>
+<div class="vendidos">🛒 6 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5649195072-anel-coraco-resina-marrom-joia-acessorio-para-o-vero-16-_JM" target="_blank">
@@ -66,10 +78,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Anel Coração Resina Marrom Joia Acessório Para O Verão 16</h3>
 <div class="preco-original">De R$50.00</div>
 <div class="preco">R$25.00</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-50% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-50% OFF</span>
+  <span class="badge badge-estoque">✅ 16 un.</span>
 </div>
+<div class="vendidos">🛒 5 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5649090954-anel-feminino-coraco-joia-em-resina-creme-para-vero-praia-creme-16-_JM" target="_blank">
@@ -78,10 +92,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Anel Feminino Coração Joia Em Resina Creme Para Verão Praia Creme 16</h3>
 <div class="preco-original">De R$50.00</div>
 <div class="preco">R$25.00</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-50% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-50% OFF</span>
+  <span class="badge badge-estoque">✅ 12 un.</span>
 </div>
+<div class="vendidos">🛒 2 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-4181256601-anel-coraco-resina-verde-joia-acessorio-para-o-vero-16-_JM" target="_blank">
@@ -90,10 +106,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Anel Coração Resina Verde Joia Acessório Para O Verão 16</h3>
 <div class="preco-original">De R$50.00</div>
 <div class="preco">R$25.00</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-50% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-50% OFF</span>
+  <span class="badge badge-estoque">✅ 17 un.</span>
 </div>
+<div class="vendidos">🛒 5 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-4211362903-brinco-orgnico-martelado-com-gota-cristal-dourado-_JM" target="_blank">
@@ -102,10 +120,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Brinco Orgânico Martelado Com Gota Cristal Dourado</h3>
 
 <div class="preco">R$119.90</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
   
+  <span class="badge badge-sem-estoque">❌ Sem estoque</span>
 </div>
+<div class="vendidos">🛒 1 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5742364416-brinco-argola-entorno-cravejado-com-coraco-cristal-dourado-_JM" target="_blank">
@@ -114,10 +134,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Brinco Argola Entorno Cravejado Com Coração Cristal Dourado</h3>
 <div class="preco-original">De R$169.90</div>
 <div class="preco">R$161.40</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-5% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-5% OFF</span>
+  <span class="badge badge-estoque">✅ 25 un.</span>
 </div>
+<div class="vendidos">🛒 0 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5742351820-brinco-feminino-maxi-bold-gota-em-ouro-18k-lisa-dourado-_JM" target="_blank">
@@ -126,10 +148,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Brinco Feminino Maxi Bold Gota Em Ouro 18k Lisa Dourado</h3>
 
 <div class="preco">R$129.90</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
   
+  <span class="badge badge-estoque">✅ 8 un.</span>
 </div>
+<div class="vendidos">🛒 2 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-4222219025-pulseira-bracelete-cravejado-com-coraco-cristal-dourado-_JM" target="_blank">
@@ -138,10 +162,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Pulseira Bracelete Cravejado Com Coração Cristal Dourado</h3>
 <div class="preco-original">De R$199.90</div>
 <div class="preco">R$179.91</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-10% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-10% OFF</span>
+  <span class="badge badge-estoque">✅ 28 un.</span>
 </div>
+<div class="vendidos">🛒 1 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5755130422-anel-coraco-resina-nude-joia-acessorio-para-o-vero-nude-16-_JM" target="_blank">
@@ -150,10 +176,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Anel Coração Resina Nude Joia Acessório Para O Verão Nude 16</h3>
 <div class="preco-original">De R$24.90</div>
 <div class="preco">R$23.65</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-5% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-5% OFF</span>
+  <span class="badge badge-estoque">✅ 12 un.</span>
 </div>
+<div class="vendidos">🛒 3 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-4229875831-brinco-feminino-gota-joia-em-resina-para-o-vero-praia-_JM" target="_blank">
@@ -162,10 +190,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Brinco Feminino Gota Joia Em Resina Para O Verão Praia</h3>
 
 <div class="preco">R$24.90</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
   
+  <span class="badge badge-estoque">✅ 50 un.</span>
 </div>
+<div class="vendidos">🛒 30 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5869925578-brinco-orgnico-martelado-com-gota-cristal-dourado-_JM" target="_blank">
@@ -174,10 +204,12 @@ a { text-decoration: none; color: inherit; }
 <h3>Brinco Orgânico Martelado Com Gota Cristal Dourado</h3>
 
 <div class="preco">R$119.90</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
   
+  <span class="badge badge-sem-estoque">❌ Sem estoque</span>
 </div>
+<div class="vendidos">🛒 12 vendidos</div>
 </div>
 </a>
 <a href="https://produto.mercadolivre.com.br/MLB-5885355716-brinco-argola-entorno-cravejado-com-coraco-cristal-dourado-_JM" target="_blank">
@@ -186,13 +218,15 @@ a { text-decoration: none; color: inherit; }
 <h3>Brinco Argola Entorno Cravejado Com Coração Cristal Dourado</h3>
 <div class="preco-original">De R$169.90</div>
 <div class="preco">R$161.40</div>
-<div style="margin-top:6px">
-  <span class="badge-full">📦 FULL</span>
-  <span class="badge-promo">-5% OFF</span>
+<div class="badges">
+  <span class="badge badge-full">📦 FULL</span>
+  <span class="badge badge-promo">-5% OFF</span>
+  <span class="badge badge-estoque">✅ 25 un.</span>
 </div>
+<div class="vendidos">🛒 2 vendidos</div>
 </div>
 </a>
 </div>
-<p class="atualizado">Atualizado em 28/03/2026 21:21 · Mariana Amaral Acessórios</p>
+<p class="atualizado">Atualizado em 28/03/2026 21:30 · Mariana Amaral Acessórios</p>
 </body>
-</html><!-- Sat Mar 28 21:24:48 UTC 2026 -->
+</html>
