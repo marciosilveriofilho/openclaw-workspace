@@ -1,0 +1,11 @@
+# Arquivos sensíveis - NUNCA commitar
+*.env
+*secret*
+*password*
+*.key
+
+# Mídia recebida (muito pesado)
+../media/
+
+# Logs
+*.log
